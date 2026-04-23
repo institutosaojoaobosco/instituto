@@ -52,5 +52,14 @@
     "statusLabel": "Realizado",
     "local": "Brasília / DF",
     "capa": "projetos/thumbnails/workshop-bolachas.webp"
+  },
+  {
+    "slug": "teste",
+    "titulo": "TESTE",
+    "resumo": "TESTESTESTESTESTESTESTESTES",
+    "status": "ativo",
+    "statusLabel": "Em andamento",
+    "local": "SGAEVAEAWERA",
+    "capa": "projetos/thumbnails/teste.webp"
   }
 ]
