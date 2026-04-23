@@ -337,7 +337,7 @@ document.addEventListener('keydown', e => {
    ============================================================ */
 if (document.getElementById('blog-grid')) {
   showGridSpinner();
-  fetch('projetos/data/index.json')
+  fetch('projetos/data/index.json?v=' + Date.now())
     .then(r => {
       if (!r.ok) throw new Error(`Não encontrei projetos/data/index.json (${r.status})`);
       return r.json();
